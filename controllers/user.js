@@ -4,6 +4,31 @@ const nodemailer = require('nodemailer');
 const passport = require('passport');
 const User = require('../models/User');
 
+
+/**
+ * GET /tutor
+ */
+exports.getTutor = (req, res) => {
+  res.render('tutor', {
+    title: 'Tutor'
+  });
+};
+/**
+ * GET /Group
+ */
+exports.getGroup = (req, res) => {
+  res.render('/group', {
+    title: 'Group'
+  });
+};
+/**
+ * GET /Collab
+ */
+exports.getCollab = (req, res) => {
+  res.render('/collab', {
+    title: 'Collab'
+  });
+};
 /**
  * GET /login
  * Login page.

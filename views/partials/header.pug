@@ -13,6 +13,12 @@
       ul.nav.navbar-nav
         li(class=(title == 'Home') ? 'active' : undefined)
           a(href='/') Home
+        li(class=(title == 'Group') ? 'active' : undefined)
+          a(href='/group') Group
+        li(class=(title == 'Tutor') ? 'active' : undefined)
+          a(href='/tutor') Tutor
+        li(class=(title == 'Collab') ? 'active' : undefined)
+          a(href='/collab') Collab
       ul.nav.navbar-nav.navbar-right
         if !user
           li(class=(title == 'Login') ? 'active' : undefined)
