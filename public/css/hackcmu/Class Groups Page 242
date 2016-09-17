@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  /*font: 400 15px/1.8 "Lato", sans-serif; //sans-serif*/
+  font: 25px "Arial Narrow",  sans-serif;
+  color: #777;
+}
+a:link, a:visited {
+    background-color: orange;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: black;
+}
+.bgimg-3, .bgimg-2, .bgimg-1 {
+  position: relative;
+  opacity: .90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("earthsemicircle.jpg");
+  min-height: 100%; //100
+}
+
+.bgimg-2 {
+  background-image: url("milkywet.jpg");
+  min-height: 800px; // 400
+}
+
+.bgimg-3 {
+  background-image: url("earthsemicircle.jpg");
+  min-height: 800%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: white;
+  color: #fff;
+  padding: 18px;
+  font-size: 75px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  font: 60px "Arial Narrow", sans-serif; //parallax demo 
+  color: #111;
+}
+
+h4 {
+  letter-spacing: 3px;
+  font: 20px "Arial Narrow", sans-serif; //parallax demo 
+  color: #111;
+}
+</style>
+</head>
+<body>
+
+<div style="color: white; background-color:#454545;text-align:center;padding:120px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Annoucements and Homework Assignments</h3>
+  <h4 style="text-align:center;">Whiteboard Session at 7PM</h4>
+  <h4 style="text-align:center;">Problem Set 1: Due Wednesday the 19th</h4>
+ 
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;">Collaborate with your Classmates</span>
+  </div>
+</div>
+
+<div style="color: white; background-color:#454545;text-align:center;padding:120px 80px;text-align: justify;">
+  <h3 style="text-align:center;">See who is in your Section</h3>
+  
+  <h4 style="text-align:center;">
+    <a href= "default.asp" target="_blank">Rishav Dutta</a>
+    <a href= "default.asp" target="_blank">Darshan Chakrabarti</a>
+    <a href= "default.asp" target="_blank">Kevin Barchlett</a>
+    <a href= "default.asp" target="_blank">Eric Nie</a>
+    <a href= "default.asp" target="_blank">Monica Pardeshi</a>
+    <a href= "default.asp" target="_blank">Tanuj Nayak</a>
+    <a href= "default.asp" target="_blank">Jason Huang</a>
+    <a href= "default.asp" target="_blank">Phillip Wang</a>
+    <a href= "default.asp" target="_blank">Shreya Desikan</a>
+    <a href= "default.asp" target="_blank">Tushar Chetal</a>
+    <a href= "default.asp" target="_blank">Udit Ranasaria</a>
+    <a href= "default.asp" target="_blank">Rithvik Bharath</a>
+    <a href= "default.asp" target="_blank">Katherine Choy</a>
+    <a href= "default.asp" target="_blank">Meredith Wong</a>
+  </h4>
+  
+
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:35px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="color: white; background-color:#454545;text-align:center;padding:120px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Start a Whiteboard Session</h3>
+  <h4 style="text-align:center;">Use whiteboard session to collaborate with your classmates or your TA</h4>
+  <h4 style="text-align:center;">
+    <a href= "default.asp" target="_blank">Start a Group Session</a>
+    <a href= "default.asp" target="_blank">Start a TA Session</a>
+    
+  </h4>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:35px;color: #f7f7f7"></span>
+  </div>
+</div>
+
+
+<div style="color: white; background-color:#454545;text-align:center;padding:120px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Find a Tutor</h3>
+  <h4 style="text-align:center;">Use whiteboard session to collaborate with your Tutor</h4>
+  <h4 style="text-align:center;">
+    <a href= "default.asp" target="_blank">Find a Tutor</a>
+  </h4>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:35px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="color: white; background-color:#454545;text-align:center;padding:120px 80px;text-align: justify;">
+  <h3 style="text-align:center;">See Where Collab Sessions are Happening</h3>
+  <h4 style="text-align:center;">Start a real-life Collab Session with your Group</h4>
+  <h4 style="text-align:center;">
+    <a href= "default.asp" target="_blank">Click Here to set a location</a>
+
+
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      body, html {
+        height: 100%; //400px
+        width: 600px;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 600px; //100%
+
+      }
+    </style>
+  </head>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        var Hunt = {lat: 40.441107, lng: -79.9435866};
+        var Baker = {lat: 40.441479, lng: -79.945011};
+        var Mudge = {lat: 40.446826, lng: -79.942677};
+        var Gates = {lat: 40.443477, lng: -79.944647};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat:40.443716, lng: -79.942919},
+          zoom: 16
+        });
+
+        var marker = new google.maps.Marker({
+          position: Hunt, 
+          map: map,
+          animation: google.maps.Animation.DROP,
+          title: 'Hunt Library Collab Session : 4:30'
+        });
+
+        var marker = new google.maps.Marker({
+          position: Baker, 
+          map:map, 
+          animation: google.maps.Animation.DROP,
+          title: 'Baker 237B Collab Session : 7:30'
+        });
+
+        var marker = new google.maps.Marker({
+          position: Gates, 
+          map:map, 
+          animation: google.maps.Animation.DROP,
+          title: 'Gates 4405 Collab Session : 8:30'
+        });
+
+        var marker = new google.maps.Marker({
+          position: Mudge, 
+          map:map, 
+          animation: google.maps.Animation.DROP,
+          title: 'Mudge C105 Collab Session : 5:00'
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLA79gJf25Vrk8RK9Ws_qo8SMX_7Zv93U&callback=initMap"
+    async defer></script>
+  </h4>
+</div>
+
+
+
+</body>
+</html>
