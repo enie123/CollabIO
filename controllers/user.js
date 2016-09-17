@@ -9,7 +9,7 @@ const User = require('../models/User');
  * GET /tutor
  */
 exports.getTutor = (req, res) => {
-  res.render('tutor', {
+  res.render('tutorlanding', {
     title: 'Tutor'
   });
 };
