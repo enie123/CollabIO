@@ -6,24 +6,13 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     meta(name='theme-color' content='#4DA5F4')
     meta(name='csrf-token', content=_csrf)
-    title #{title} - CollabSpace
+    title #{title} - CollabSpace 
     link(rel='shortcut icon', href='/favicon.png')
-    link(rel='stylesheet', href='/css/tutor.css')
     link(rel='stylesheet', href='/css/main.css')
-
-  body
-    include partials/header
-
-    div(style = "height: 100vh; width: 100wh; ")#aww-wrapper
-    script(src="https://awwapp.com/static/widget/js/aww.min.js")
-    script(type="text/javascript").
-      var aww = new AwwBoard('#aww-wrapper', {
-        boardLink: '5aj5342-56tz-uhjk-9874',
-        });
-
-
  
-script(src='/js/lib/jquery-2.2.4.min.js')
+  body
+
+    script(src='/js/lib/jquery-2.2.4.min.js')
     script(src='/js/lib/bootstrap.min.js')
     script(src='/js/main.js')
 

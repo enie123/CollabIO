@@ -17,7 +17,7 @@ exports.getTutor = (req, res) => {
  * GET /Group
  */
 exports.getGroup = (req, res) => {
-  res.render('/group', {
+  res.render('group', {
     title: 'Group'
   });
 };
@@ -25,7 +25,7 @@ exports.getGroup = (req, res) => {
  * GET /Collab
  */
 exports.getCollab = (req, res) => {
-  res.render('/collab', {
+  res.render('collab', {
     title: 'Collab'
   });
 };

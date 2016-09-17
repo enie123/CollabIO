@@ -8,19 +8,15 @@ html
     meta(name='csrf-token', content=_csrf)
     title #{title} - CollabSpace
     link(rel='shortcut icon', href='/favicon.png')
-    link(rel='stylesheet', href='/css/tutor.css')
     link(rel='stylesheet', href='/css/main.css')
 
   body
-    include partials/header
-
-    div(style = "height: 100vh; width: 100wh; ")#aww-wrapper
+    div(style=style="width: 600px; height: 400px;")#aww-wrapper
     script(src="https://awwapp.com/static/widget/js/aww.min.js")
     script(type="text/javascript").
       var aww = new AwwBoard('#aww-wrapper', {
-        boardLink: '5aj5342-56tz-uhjk-9874',
+        apiKey: 'fa6aca94-7023-4206-ac11-1baa8b110451'
         });
-
 
  
 script(src='/js/lib/jquery-2.2.4.min.js')
