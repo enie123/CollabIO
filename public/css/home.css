@@ -43,16 +43,13 @@ body, html {
   color: #fff;
   padding: 18px;
   font-size: 75px;
-  letter-spacing: 10px;
 }
 
 h3 {
-  letter-spacing: 5px;
   font: 40px "Arial Narrow", sans-serif; //parallax demo 
   color: #111;
 }
 h4 {
-  letter-spacing: 3px;
   font: 20px "Arial Narrow", sans-serif; //parallax demo 
   color: #111;
 }
